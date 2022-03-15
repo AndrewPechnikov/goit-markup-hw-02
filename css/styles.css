@@ -1,0 +1,37 @@
+:root{
+    --focus-color:#2196F3;
+}
+
+
+
+.navigation a{
+    color: #000;
+    text-decoration: none;
+}
+.navigation a:hover, .navigation a:focus {
+    color: var(--focus-color);
+}
+
+.contacts a{
+    color: #000;
+    text-decoration: none;
+}
+
+.contacts a:hover, .contacts a:focus {
+    color: var(--focus-color);
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+}
+
+.first-part-logo{
+    color: var(--focus-color);
+}
+
+.button-style:hover{
+    background-color: var(--focus-color);
+    color: #FFF;
+}
+
