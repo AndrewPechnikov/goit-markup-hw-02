@@ -1,37 +1,60 @@
 :root{
+    --main-color:#757575;
+    --additional-color:#212121;
+    --white-text:#ffffff;
+    --white-translucent-color:rgba(255, 255, 255, 0.6);
     --focus-color:#2196F3;
 }
 
-
-
-.navigation a{
-    color: #000;
-    text-decoration: none;
-}
-.navigation a:hover, .navigation a:focus {
-    color: var(--focus-color);
+body{
+    color: var(--main-color);
 }
 
-.contacts a{
-    color: #000;
-    text-decoration: none;
-}
 
-.contacts a:hover, .contacts a:focus {
-    color: var(--focus-color);
-}
 
 .logo{
-    text-decoration: none;
-    color: #000;
+    color: var(--additional-color);
 }
 
 .first-part-logo{
     color: var(--focus-color);
 }
 
-.button-style:hover{
-    background-color: var(--focus-color);
-    color: #FFF;
+.navigation a{
+    color: var(--additional-color) ;
 }
 
+.navigation a:hover,
+.navigation a:focus{
+    color: var(--focus-color);
+}
+
+.navigation .current-tab{
+    color: var(--focus-color);
+}
+
+.contacts a{
+    color: var(--main-color);
+}
+
+.contacts a:hover,
+.contacts a:focus{
+    color: var(--focus-color);
+}
+
+.hero h1{
+    color: var(--additional-color);
+}
+
+.section h2,
+.section h3{
+    color: var(--additional-color);
+}
+
+
+.footer-mail{
+    color: var(--white-translucent-color)
+}
+.footer-telephone{
+    color: var(--white-translucent-color)
+}
