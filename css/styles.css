@@ -58,3 +58,14 @@ body{
 .footer-telephone{
     color: var(--white-translucent-color)
 }
+
+.filter button{
+    color: var(--additional-color);
+    background:#F5F4FA;
+}
+
+.filter button:hover,
+.filter button:focus{
+    color: var(--white-text);
+    background:var(--focus-color);
+}
